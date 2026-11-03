@@ -1,0 +1,38 @@
+﻿{
+    "manifestVersion":  1,
+    "id":  "public-records-kit",
+    "name":  "Public Records Kit",
+    "summary":  "Transforms civic datasets into searchable embeddings.",
+    "description":  "Bundles parsing and embedding blocks to ingest CSV/JSON public records and make them ready for search.",
+    "version":  "0.1.0",
+    "category":  "civic-data",
+    "tags":  [
+                 "civic",
+                 "records"
+             ],
+    "blocks":  [
+                   {
+                       "blockId":  "parser-csv-json",
+                       "version":  "0.1.0",
+                       "required":  true
+                   },
+                   {
+                       "blockId":  "embedder-bge-small",
+                       "version":  "0.1.0",
+                       "required":  true
+                   }
+               ],
+    "maintainers":  [
+                        {
+                            "name":  "BLKC Core Team",
+                            "role":  "Platform"
+                        }
+                    ],
+    "visibility":  "public",
+    "documentation":  "https://docs.blackcodemarket.com/kits/public-records",
+    "pricing":  {
+                    "model":  "free",
+                    "currency":  "USD"
+                },
+    "repository":  "https://github.com/blkc-community/kits/tree/main/public-records-kit"
+}

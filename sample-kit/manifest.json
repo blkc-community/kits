@@ -1,0 +1,14 @@
+{
+  "id": "sample-kit",
+  "name": "Sample Kit",
+  "summary": "A minimal kit demonstrating block composition",
+  "description": "This kit shows how blocks can be composed into a working kit.",
+  "version": "0.1.0",
+  "blocks": [
+    {
+      "blockId": "sample-block",
+      "version": "0.1.0"
+    }
+  ],
+  "category": "example"
+}

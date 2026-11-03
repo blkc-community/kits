@@ -1,0 +1,44 @@
+﻿{
+    "manifestVersion":  1,
+    "id":  "lead-gen-kit",
+    "name":  "Lead Gen Kit",
+    "summary":  "Qualifies inbound leads with lightweight scoring.",
+    "description":  "Streams raw lead captures through parsing, embedding, and intent scoring blocks to prioritise outreach.",
+    "version":  "0.1.0",
+    "category":  "sales",
+    "tags":  [
+                 "sales",
+                 "automation"
+             ],
+    "blocks":  [
+                   {
+                       "blockId":  "parser-csv-json",
+                       "version":  "0.1.0",
+                       "required":  true
+                   },
+                   {
+                       "blockId":  "embedder-bge-small",
+                       "version":  "0.1.0",
+                       "required":  true
+                   },
+                   {
+                       "blockId":  "classifier-intent",
+                       "version":  "0.1.0",
+                       "required":  true
+                   }
+               ],
+    "maintainers":  [
+                        {
+                            "name":  "BLKC Core Team",
+                            "role":  "Platform"
+                        }
+                    ],
+    "visibility":  "public",
+    "documentation":  "https://docs.blackcodemarket.com/kits/lead-gen",
+    "pricing":  {
+                    "model":  "subscription",
+                    "amount":  99,
+                    "currency":  "USD"
+                },
+    "repository":  "https://github.com/blkc-community/kits/tree/main/lead-gen-kit"
+}
