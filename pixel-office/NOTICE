@@ -5,5 +5,6 @@ Inspired by Pixel Agents
 https://github.com/pixel-agents-hq/pixel-agents
 Copyright (c) 2026 Pablo De Lucca. MIT licensed.
 
-No Pixel Agents code or art is included in this Kit yet. Anything imported from it
-later must keep that project's copyright and licence notice here.
+Asset provenance: all characters, furniture, floors and walls are original work, drawn
+in code in @blkc-code/render-canvas. No Pixel Agents code or art is included. Anything
+imported from it later must keep that project's copyright and licence notice here.
