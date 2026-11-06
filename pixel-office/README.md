@@ -8,7 +8,7 @@ A free, MIT-licensed BLKC Kit: a living pixel-art office for your project. Your 
 npx @blkc-code/cli@latest dev
 ```
 
-This opens a preview in your browser and reloads when you save. Click someone in the office to see what they are doing. The Every Block page shows each web Block with this theme.
+This opens a preview in your browser and reloads when you save. Click an agent in the office to see what it is doing. The Every Block page shows each web Block with this theme.
 
 ## Make it your own
 
@@ -21,18 +21,26 @@ Everything is in `kit.json`:
 
 An agent's `state` is one of `working`, `thinking`, `blocked`, `reviewing`, `idle`, `done` or `away`. Furniture types are `desk`, `coffee`, `water`, `sofa`, `plant`, `board`, `shelf`, `server`, `table` and `rug`.
 
-## Connect real work
+## Use it as an app
 
-While `blkc dev` is running, anything can update the office by writing `office-state.json` beside `kit.json`:
+`blkc dev` opens a full-screen app at `/office`. Add agents, move quests on the board, and changes save to `office-state.json`. Adding that file to `.gitignore` keeps your day-to-day status out of the repo.
 
-```json
-{
-  "agents": [{ "id": "nova", "name": "Nova", "state": "blocked", "task": "Needs a password" }],
-  "tasks": [{ "title": "Ship it", "state": "doing" }]
-}
+## Connect your agents
+
+Any agent on your machine can join:
+
+```bash
+npx @blkc-code/cli@latest office connect claude   # MCP, plus automatic updates
+npx @blkc-code/cli@latest office connect cursor   # or vscode, or gemini
+npx @blkc-code/cli@latest office connect codex
+npx @blkc-code/cli@latest office connect other    # any other MCP agent
 ```
 
-A script, a build or a hook from your coding agent can write that file. BLKC does not connect to any agent for you yet.
+Then restart the agent. MCP agents report when they choose to, so ask yours to use the office tools. Anything else can run a command:
+
+```bash
+npx @blkc-code/cli@latest office set "My Agent" working --task "Building the page"
+```
 
 ## Put it on your own site
 

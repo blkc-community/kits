@@ -140,7 +140,7 @@
             "block": "office",
             "props": {
               "heading": "Pixel Office",
-              "intro": "Your agents and tasks, alive in a pixel-art office. Click someone to see what they are doing. Everyone here is data: change a status in JSON and they get up and walk to where that work happens.",
+              "intro": "Your agents and tasks, alive in a pixel-art office. Click an agent to see what it is doing. Every agent is data: change a status and it gets up and walks to where that work happens.",
               "agents": [
                 {
                   "id": "nova",
@@ -231,7 +231,7 @@
               "items": [
                 {
                   "title": "A living office",
-                  "text": "People walk, work, take breaks and raise a flag when they are stuck, all from their status."
+                  "text": "Agents walk, work, take breaks and raise a flag when they are stuck, all from their status."
                 },
                 {
                   "title": "Quests",
