@@ -34,7 +34,7 @@
                         }
                     ],
     "visibility":  "public",
-    "documentation":  "https://docs.blackcodemarket.com/kits/lead-gen",
+    "documentation":  "https://github.com/blkc-community/kits/tree/main/lead-gen-kit",
     "pricing":  {
                     "model":  "subscription",
                     "amount":  99,

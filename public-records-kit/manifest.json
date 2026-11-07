@@ -29,7 +29,7 @@
                         }
                     ],
     "visibility":  "public",
-    "documentation":  "https://docs.blackcodemarket.com/kits/public-records",
+    "documentation":  "https://github.com/blkc-community/kits/tree/main/public-records-kit",
     "pricing":  {
                     "model":  "free",
                     "currency":  "USD"
