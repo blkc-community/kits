@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "name": "Pixel Office Demo",
+  "theme": {
+    "palette": {
+      "background": "#1a1a2e",
+      "foreground": "#e0e0e0",
+      "primary": "#00ff88",
+      "accent": "#ff6b6b"
+    },
+    "fontFamily": "'Press Start 2P', monospace"
+  },
+  "roles": {
+    "coder": { "color": "#3b82f6", "label": "Coder" },
+    "tester": { "color": "#22c55e", "label": "Tester" },
+    "reviewer": { "color": "#f59e0b", "label": "Reviewer" }
+  },
+  "panels": { "agents": true, "tasks": true, "audit": true, "map": true },
+  "assets": {},
+  "notes": "Fork this kit and edit this file to theme your own agentic presentation layer. Assets (sprites, backgrounds) can be generated via a skill and dropped in assets/."
+}
